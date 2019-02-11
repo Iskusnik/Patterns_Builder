@@ -43,8 +43,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AbstractServerBuilder.cs" />
+    <Compile Include="BusinessServer.cs" />
+    <Compile Include="BusinessServerBuilder.cs" />
+    <Compile Include="ServerProduct.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SchoolServer.cs" />
+    <Compile Include="SchoolServerBuilder.cs" />
+    <Compile Include="ServerBuilderDirector.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
